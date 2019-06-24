@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function upper_case(str) {
+            regexp = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(.[A-Za-z0-9]+)$/;
+            if (regexp.test(str)){
+                document.write("Email hop le");
+            }
+            else document.write("Email khong hop le");
+        }
+        upper_case("anhduchacho123@gmail.com");
+        upper_case("Anh duc 97 hc")
+    </script>
+</body>
+</html>
